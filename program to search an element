@@ -1,0 +1,10 @@
+#the program will print 1 if element is present else it will print 0
+s=("1,25,22,14,65555,548,54541,424,354")
+s1=s.split(" ")
+print("enter value of element to be searched")
+i=input()
+
+if i in s1:
+    print(1)
+else:
+    print(0)
