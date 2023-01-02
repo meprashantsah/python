@@ -1,0 +1,2 @@
+s=("omkar is new bhadwa")
+print(len(s.split(" ")))
