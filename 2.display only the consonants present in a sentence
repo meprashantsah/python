@@ -1,0 +1,7 @@
+#this will print the sentence having only consonants and also it will print the space
+#in order to remove the space from the output this can be used; if i not in('a','e','i','o','u','A','E','I','O','U',' '):
+n=("love you bhidu")
+for i in n:
+    if i not in('a','e','i','o','u','A','E','I','O','U'):
+        print(i)
+        
