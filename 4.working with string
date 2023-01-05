@@ -19,3 +19,24 @@ print(string1 * 2 + string1[:-1] + string2) #8
 #6 o
 #7 k
 #8 hellohellohellmonk
+
+
+#program to reverse a string and print it with space
+
+s1="An apple a day keeps the doctor away"
+print(s1[::-1])
+
+# output:
+# yawa rotcod eht speek yad a elppa nA
+
+#program to reverse a string and print it without space
+
+s1="An apple a day keeps the doctor away"
+s2=s1.split(" ")
+print(s2)
+s="".join(s2)
+print(s[::-1])
+
+# output:
+# ['An', 'apple', 'a', 'day', 'keeps', 'the', 'doctor', 'away']
+# yawarotcodehtspeekyadaelppanA
