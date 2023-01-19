@@ -1,0 +1,23 @@
+string1 = '0110101010111'
+b = {'0','1'}
+
+t = set(string1)
+
+if b == t or t == {'0'} or t == {'1'}:
+    print("String1 is a binary string.")
+else:
+    print("String1 is not a binary string.")
+    
+    
+    
+    
+    
+    
+    
+s1='10010100'
+s2={'0','1'}
+s3=set(s1)
+if s3==s2 or s3=='0' or s3=='1':
+    print(s1,"is a binary number")
+else:
+    print(s1,"is not a binary number")
