@@ -1,1 +1,7 @@
 sum(arrayName) ---- used to find sum of an array
+
+
+sumOfLeftDiagonal = arr[i][i]
+sumOfRightDiagonal = arr[i][n-1-i]
+n is no. of elements in array
+
