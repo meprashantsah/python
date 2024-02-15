@@ -1,0 +1,66 @@
+Certainly! The map() function in Python is used to apply a specified function to all items in an iterable (e.g., a list) and returns an iterator that produces the results.
+The syntax of the map() function is as follows:
+
+python Copy code
+map(function, iterable, ...)
+function: The function to apply to each item in the iterable.
+iterable: The iterable (e.g., list, tuple, etc.) whose items will be processed by the function.
+
+
+# Example 1: Doubling each element of a list using map
+
+# Define a function to double a number
+def double(x):
+    return x * 2
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use map to double each element in the list
+doubled_numbers = map(double, numbers)
+
+# Convert the result to a list (as map returns an iterator)
+doubled_numbers_list = list(doubled_numbers)
+
+# Print the result
+print("Original Numbers:", numbers)
+print("Doubled Numbers:", doubled_numbers_list)
+
+In this example, the double() function is defined to double a number.
+The map() function is then used to apply the double function to each element in the numbers list, resulting in a new list of doubled numbers.
+
+You can also use map() with lambda functions for a more concise approach:
+
+python
+Copy code
+# Example 2: Using map with a lambda function
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use map with a lambda function to square each element in the list
+squared_numbers = map(lambda x: x**2, numbers)
+
+# Convert the result to a list
+squared_numbers_list = list(squared_numbers)
+
+# Print the result
+print("Original Numbers:", numbers)
+print("Squared Numbers:", squared_numbers_list)
+
+Here, a lambda function is used within map() to square each element in the numbers list.
+Keep in mind that map() returns an iterator, so you may need to convert it to a list or another iterable type if you want to see the results immediately.
+
+A lambda function in Python is a small, anonymous (unnamed) function defined using the lambda keyword.
+Lambda functions are often used for short, simple operations where creating a full function using the def keyword might be overkill. The syntax for a lambda function is:
+
+python Copy code
+lambda arguments: expression
+
+Here, arguments are the input parameters, and expression is the operation to be performed.
+Lambda functions are often used when a function is needed for a short period and only in a specific context.
+
+
+
+
+
