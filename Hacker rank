@@ -5,3 +5,5 @@ sumOfLeftDiagonal = arr[i][i]
 sumOfRightDiagonal = arr[i][n-1-i]
 n is no. of elements in array
 
+
+divmod(num1,num2) ---- used to find quotient and remainder.
